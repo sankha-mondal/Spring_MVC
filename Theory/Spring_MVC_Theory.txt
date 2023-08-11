@@ -1,0 +1,28 @@
+# Core Components of Spring MVC :
+1. DispatcherServlet:
+	- Spring's Front Controller implementation
+
+2. Controller:
+	- User created component for handling requests
+	- Encapsulates navigation logic
+	 - Delegates to the service objects for business logic
+	- The default handler is a very sample Controller interface with method:
+		ModelAndView handleRequest(request, response).
+
+3. View:
+	- Responsible for rendering output
+
+4. ModelAndView:
+	- Created by the Controller
+	- Stores the Model data
+	- Associates a View to the request
+		Can be a physical View implementation or a logical View name
+	- The ModelAndView class is simply a container by which the model may be transported to and exposed by the view.
+		It is not the model itself
+
+5. ViewResolver:
+	- Used to map logical View names to actual View implementations
+
+6. HandlerMapping
+	- Strategy interface used by DispatcherServlet
+	- for mapping incoming requests to individual Controllers 
