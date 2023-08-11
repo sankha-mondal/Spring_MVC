@@ -6,9 +6,9 @@ Spring MVC is a framework for building web applications in Java. As the name sug
 	◼ Spring's Front Controller implementation
 
 ⚪ Controller :
-	1. User created component for handling requests                                                                                                                                    
- 	2. Encapsulates navigation logic
-  	3. Delegates to the service objects for business logic
+	1. User created component for handling requests                                                                                                                                 
+ 	2. Encapsulates navigation logic                                                                                                               
+  	3. Delegates to the service objects for business logic                                                                                                           
    	4. The default handler is a very simple Controller interface with the method:
 		ModelAndView handleRequest(request, response).
 
