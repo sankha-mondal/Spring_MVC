@@ -5,7 +5,7 @@ Spring MVC is a framework for building web applications in Java. As the name sug
 ⚪ DispatcherServlet:
 	◼ Spring's Front Controller implementation
 
-⚪ Controller :	                                                                                                                              				                                                   1. User created component for handling requests                                                                                                                                 
+⚪ Controller :	                                                                                                                              				1. User created component for handling requests                                                                                                                                 
  			2. Encapsulates navigation logic                                                                                                               
   			3. Delegates to the service objects for business logic                                                                                                           
    			4. The default handler is a very simple Controller interface with the method:
@@ -15,7 +15,7 @@ Spring MVC is a framework for building web applications in Java. As the name sug
 	1. Responsible for rendering output
 
 ⚪ ModelAndView :
-	1. Created by the Controller
+	                                                                           1. Created by the Controller
 	2. Stores the Model data
 	3. Associates a View to the request
 		◻ Can be a physical View implementation or a logical View name
