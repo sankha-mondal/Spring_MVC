@@ -3,7 +3,7 @@ Spring MVC is a framework for building web applications in Java. As the name sug
 
 # Core Components of Spring MVC :
 ⚪ DispatcherServlet:
-	1. Spring's Front Controller implementation
+	◼ Spring's Front Controller implementation
 
 ⚪ Controller :
 	1. User created component for handling requests 
